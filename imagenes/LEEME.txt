@@ -1,0 +1,5 @@
+Colocá acá las fotos originales de Dulce Arte cuando estén disponibles.
+Después, en script.js, cambiá la propiedad image del producto por una ruta como:
+imagenes/torta-cumpleanos.jpg
+
+Las imágenes actuales son ilustrativas y requieren conexión a internet.
