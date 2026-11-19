@@ -1,0 +1,5 @@
+DULCE ARTE V8.3 — MEJORA MÓVIL
+
+Ficha de producto optimizada para celular: panel desde abajo, foto adaptable, miniaturas desplazables horizontalmente, controles táctiles amplios y botón de agregar más accesible. Conserva carrito, productos y WhatsApp.
+
+Abrir index.html en el navegador o con Live Server.

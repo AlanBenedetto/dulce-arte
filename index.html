@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f2fa">
+  <meta name="description" content="Dulce Arte, pastelería artesanal en Junín, Buenos Aires. Tortas, budines, pastafrolas, lemon pie y delicias para compartir.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Dulce Arte">
+  <meta property="og:title" content="Dulce Arte | Pastelería artesanal">
+  <meta property="og:description" content="Tortas, budines, pastafrolas y delicias artesanales en Junín. Elegí tus favoritos y consultanos por WhatsApp.">
+  <meta property="og:image" content="imagenes/compartir-dulce-arte.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Dulce Arte | Pastelería artesanal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="Navegación principal">
+    <a href="#inicio" class="logo"><img class="brand-mark" src="imagenes/02-fotos-reales-optimizadas/logo/logo.webp" alt="Logo Dulce Arte"><span>Dulce Arte<small>PASTELERÍA ARTESANAL</small></span></a>
+    <div class="nav-links">
+      <a class="nav-text" href="#catalogo">Productos</a>
+      <a class="nav-text" href="#nosotros">Nosotros</a>
+      <button class="btn nav-cta" type="button" data-open-cart>Mis pedidos <span data-cart-count>0</span></button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero-shell" id="inicio" aria-labelledby="hero-title">
+    <div class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow hero-kicker"><span aria-hidden="true">✦</span> Dulce Arte · Pastelería artesanal</span>
+        <h1 id="hero-title">La dulzura de tus <em>mejores momentos.</em></h1>
+        <p>Hay momentos que merecen algo especial. Descubrí nuestras creaciones dulces para celebrar, regalar o simplemente compartir.</p>
+        <div class="actions">
+          <a class="btn hero-primary" href="#catalogo">Descubrir el catálogo <span aria-hidden="true">↗</span></a>
+          <button class="btn secondary hero-secondary" type="button" data-open-cart>Mis pedidos <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="hero-assurances" aria-label="Información de pedidos"><span><span aria-hidden="true">♡</span> Momentos para compartir</span><span><span aria-hidden="true">✦</span> Pedidos por WhatsApp</span></div>
+      </div>
+      <div class="hero-gallery" aria-label="Algunas de nuestras creaciones">
+        <div class="hero-orbit" aria-hidden="true"></div>
+        <div class="hero-main-frame"><img class="hero-photo" src="imagenes/catalogo-v9-4/chocoflan.webp" alt="Chocoflan artesanal" fetchpriority="high"></div>
+        <div class="hero-small-frame"><img src="imagenes/catalogo-v9-4/matera-chips.webp" alt="Torta matera con chips de chocolate"></div>
+        <span class="hero-gallery-note">Un detalle dulce hace la diferencia <span aria-hidden="true">♡</span></span>
+      </div>
+    </div>
+    <div class="hero-bottom-line" aria-hidden="true"><span>✦</span> Dulces momentos, recuerdos inolvidables <span>✦</span></div>
+  </section>
+  <section class="lavender" id="catalogo" aria-labelledby="catalogo-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Nuestras creaciones</span>
+        <h2 id="catalogo-title">Un dulce para cada ocasión</h2>
+        <p>Encontrá ese detalle dulce que hace especial cada momento. Elegí tus favoritos y armá tu pedido.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar productos">
+        <button class="filter active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+        <button class="filter" type="button" data-filter="tortas" aria-pressed="false">Tortas</button>
+        <button class="filter" type="button" data-filter="budines" aria-pressed="false">Budines</button>
+        <button class="filter" type="button" data-filter="pastafrolas" aria-pressed="false">Pastafrolas</button>
+        <button class="filter" type="button" data-filter="lemon" aria-pressed="false">Lemon pie</button>
+        <button class="filter" type="button" data-filter="otros" aria-pressed="false">Otras delicias</button>
+      </div>
+      <div class="product-grid" id="products" aria-live="polite"></div>
+    </div>
+  </section>
+  <section id="nosotros" aria-labelledby="nosotros-title">
+    <div class="container about">
+      <img src="imagenes/03-propuestas-ia-no-publicar/budines/budin-chips.webp" alt="Budín con chips" loading="lazy">
+      <div>
+        <span class="eyebrow">Nuestra esencia</span>
+        <h2 id="nosotros-title">La magia está en los detalles</h2>
+        <p>En Dulce Arte creemos que cada celebración merece algo especial. Creamos delicias artesanales con dedicación y atención a cada detalle.</p>
+        <p>Desde una torta personalizada hasta algo rico para compartir, queremos acompañarte en tus momentos favoritos.</p>
+        <a class="btn" href="#pedidos">Armar mi pedido</a>
+      </div>
+    </div>
+  </section>
+  <section class="order" id="pedidos" aria-labelledby="pedidos-title">
+    <div class="container">
+      <span class="eyebrow">Dulce Arte</span>
+      <h2 id="pedidos-title">¿Preparamos algo especial?</h2>
+      <p>Elegí tus productos y envianos tu pedido por WhatsApp. Confirmaremos disponibilidad, precio y entrega.</p>
+      <button class="btn order-btn" type="button" data-open-cart>Ver mis pedidos (<span data-cart-count>0</span>)</button>
+      <p class="contact-note" id="contact-note">Podés enviar tu pedido por WhatsApp o escribirnos por <a href="https://www.instagram.com/dulce.arte.76/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+    </div>
+  </section>
+</main>
+<div id="cart-added-feedback" class="cart-added-feedback" role="status" aria-live="polite" hidden>✓ Agregado al carrito</div>
+<button class="floating-cart" type="button" data-open-cart aria-label="Abrir mis pedidos">🛍️ <span data-cart-count>0</span></button>
+<div class="detail-overlay" id="detail-overlay" hidden></div>
+<section class="detail-modal" id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true" hidden>
+  <button type="button" id="close-detail" class="detail-close" aria-label="Cerrar detalles">×</button>
+  <div class="detail-scroll" id="detail-scroll">
+    <div class="detail-visual"><div id="detail-placeholder" class="detail-placeholder" hidden></div>
+      <img id="detail-image" class="detail-image" src="" alt=""></div>
+    <div class="detail-copy">
+      <span class="eyebrow">Dulce Arte · Nuestros productos</span>
+      <h2 id="detail-title"></h2>
+      <p id="detail-description"></p>
+      <div id="detail-variants" class="detail-variants" hidden></div>
+      <p id="detail-price" class="detail-price"></p>
+      <p class="detail-notice">Las presentaciones pueden variar. Confirmaremos los detalles de tu pedido por WhatsApp.</p>
+      <button type="button" id="detail-add" class="btn detail-add">Agregar al carrito</button>
+    </div>
+  </div>
+</section>
+<div class="cart-overlay" id="cart-overlay" hidden></div>
+<aside class="cart-panel" id="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" hidden>
+  <div class="cart-top"><div><span class="eyebrow">Dulce Arte</span><h2 id="cart-title">Mis pedidos</h2></div><button type="button" id="close-cart" class="close-cart" aria-label="Cerrar mis pedidos">×</button></div>
+  <p class="cart-intro">Revisá los productos que elegiste antes de enviar tu pedido.</p>
+  <div id="cart-items" class="cart-items"></div>
+  <div class="cart-summary" id="cart-summary" aria-live="polite"></div>
+  <div class="cart-fields"><label for="client-name">Tu nombre (opcional)</label><input id="client-name" type="text" maxlength="80" autocomplete="name" placeholder="¿Cómo te llamás?">
+  <label for="requested-date">Fecha deseada (opcional)</label><input id="requested-date" type="date">
+  <label for="cart-notes">Observaciones (opcional)</label><textarea id="cart-notes" rows="3" maxlength="500" placeholder="Decoración, colores, ocasión especial..."></textarea></div>
+  <label class="cart-confirm"><input id="order-confirm" type="checkbox"> Revisé mi pedido y entiendo que Dulce Arte confirmará disponibilidad, precio final y entrega.</label>
+  <button type="button" id="send-inquiry" class="btn cart-send">Enviar pedido por WhatsApp</button>
+  <p id="cart-feedback" class="cart-feedback" role="status" aria-live="polite"></p>
+  <p class="cart-disclaimer">El pedido queda pendiente de confirmación de Dulce Arte: disponibilidad, precio final y entrega.</p>
+</aside>
+<footer class="footer">
+  <div class="logo">Dulce Arte</div>
+  <p>Pastelería artesanal · Junín, Buenos Aires</p>
+  <p><a href="https://www.instagram.com/dulce.arte.76/" target="_blank" rel="noopener noreferrer">Seguinos en Instagram</a></p>
+  <p>© <span id="year"></span> Dulce Arte</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Dulce Arte V9.5 — Fichas móviles corregidas, filtros horizontales, fotografía principal actualizada, portada y tarjetas compactadas. Carrito flotante intacto. Abrir index.html o usar Live Server.

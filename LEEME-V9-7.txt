@@ -1,0 +1,10 @@
+Dulce Arte V9.7
+
+- Se eliminó el botón Ver detalles.
+- Se abre la ficha tocando la imagen o el nombre del producto.
+- Tarjetas con nombre, precio y un único botón de compra, alineados.
+- Las descripciones se muestran únicamente dentro de las fichas.
+- Los precios desconocidos dicen Valor a confirmar.
+- Se conserva el carrito flotante, las variantes, el WhatsApp y el diseño de la V9.6.
+
+Abrí index.html en un navegador o con Live Server.

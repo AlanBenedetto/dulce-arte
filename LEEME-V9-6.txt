@@ -1,0 +1,1 @@
+Dulce Arte V9.6: se elimina la descripcion de tarjetas (permanece en fichas); alineacion uniforme de precio y botones mediante CSS Grid. Conserva carrito flotante y funciones V9.5.

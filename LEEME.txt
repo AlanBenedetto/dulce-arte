@@ -1,0 +1,10 @@
+DULCE ARTE V8
+
+Abrí index.html en tu navegador o con Live Server de VS Code.
+
+Nuevo: tocá una fotografía o “Ver detalles” para abrir la ficha del producto. Desde allí podés agregarlo al carrito. Se conservan “Mis pedidos” y el envío por WhatsApp al 5492364326772.
+
+Las imágenes son ilustrativas generadas con IA. Confirmar productos y disponibilidad antes de publicar.
+
+V9.4: 11 tarjetas, variantes, fotos seleccionadas, precios y carrito por WhatsApp.
+Fotos ilustrativas generadas con IA: validar presentación real antes de publicar.

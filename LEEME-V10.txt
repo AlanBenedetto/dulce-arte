@@ -1,0 +1,11 @@
+DULCE ARTE V10 — CANDIDATA DE LANZAMIENTO
+
+Cambios: corregido nombre duplicado en tarjetas; favicon; imagen de vista previa para redes; descripción SEO coherente; compresión de imágenes WebP cuando reduce peso sin degradación importante.
+
+Conservado: 11 tarjetas, variantes, precios, carrito flotante, pedidos por WhatsApp.
+
+IMPORTANTE PARA PUBLICAR: la URL de og:image debe ser absoluta (https://tudominio/imagenes/compartir-dulce-arte.jpg). Una ruta relativa puede no funcionar en todas las redes. Actualizarla cuando exista la URL pública.
+
+Antes de compartir con clientes: confirmar fotos ilustrativas con la pastelería, disponibilidad, plazos y retiro/entrega. Probar sitio publicado en HTTPS y envío real de WhatsApp.
+
+Los precios sin confirmar se mantienen como «Valor a confirmar».

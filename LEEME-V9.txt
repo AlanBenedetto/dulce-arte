@@ -1,0 +1,6 @@
+DULCE ARTE V9.0 — PORTADA BOUTIQUE
+
+Abrí index.html en el navegador o con Live Server.
+Esta versión renueva la portada, conserva el catálogo, fichas, variantes, Mis pedidos y WhatsApp.
+No requiere instalaciones ni compilación.
+Las imágenes del catálogo son referencias visuales; verificá que representen productos ofrecidos antes de publicar.

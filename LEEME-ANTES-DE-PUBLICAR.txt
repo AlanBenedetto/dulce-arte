@@ -1,0 +1,9 @@
+DULCE ARTE - FOTOGRAFIAS ORGANIZADAS
+
+01-originales-sin-modificar: todas las fotos recibidas, sin cambios. Los nombres originales se conservaron.
+02-fotos-reales-optimizadas: seleccion previa de 16 fotos (incluido logo), con ajustes basicos y agrupadas por categoria. Estas son las mas apropiadas para una web comercial una vez revisadas.
+03-propuestas-ia-no-publicar: 16 recreaciones visuales generadas con IA. NO SON fotos de productos reales y NO deben publicarse como catalogo sin verificar que representen fielmente la oferta.
+
+Para incorporar a la web V2, las rutas de script.js/index.html deberan actualizarse a las nuevas subcarpetas. No basta con reemplazar la carpeta porque cambiaron las rutas.
+
+El contenido de 'originales' no fue clasificado automaticamente por producto para evitar asignaciones equivocadas sin revision individual.

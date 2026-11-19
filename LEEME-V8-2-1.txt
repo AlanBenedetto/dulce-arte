@@ -1,0 +1,2 @@
+Dulce Arte V8.2.1 — Corrección del error al abrir las fichas.
+Abrí index.html en el navegador. Tocá Ver detalles o la foto de una torta, elegí otra miniatura y agregala al carrito.

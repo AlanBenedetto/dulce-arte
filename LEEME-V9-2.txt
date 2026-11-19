@@ -1,0 +1,1 @@
+V9.2: Agregar al carrito ya no abre Mis pedidos automaticamente. Se muestra confirmacion discreta y se actualiza el contador. Mis pedidos solo se abre al pulsar sus botones.
